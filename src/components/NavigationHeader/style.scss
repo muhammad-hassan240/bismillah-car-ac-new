@@ -1,0 +1,35 @@
+@import '../../assets/css/common-scss/variable';
+.navbar-section {
+    background-color: $primaryColor;
+    .navbar-nav {
+        .nav-link {
+            margin: auto 12px;
+            color: $mainColor !important;
+            font-family: $mainFont;
+            font-weight: 600;
+            text-transform: uppercase;
+            &.link-active {
+                border-bottom: 2px solid $whiteColor;
+                padding: 0 !important;
+            }
+            a {
+                i {
+                    color: $mainColor !important;
+                }
+            }
+            i {
+                span {
+                    font-family: $mainFont;
+                    margin-left: $s_0_25;
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        font-family: $mainFont !important;
+        color: $mainColor !important;
+        font-weight: $fontWeightBold;
+        text-transform: uppercase;
+        letter-spacing: $smallLetterSpacing;
+    }
+}

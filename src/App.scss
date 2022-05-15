@@ -1,0 +1,132 @@
+$tabletLandscape: 1280px;
+$tabletPortrait: 768px;
+$mobileLandscape: 640px;
+$mobile: 510px;
+@import '../src/assets/css/common-scss/variable';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 0 !important;
+    font-family: 'Roboto' !important;
+    p {
+        font-size: 16px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $mainFont;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background: linear-gradient(to left, $mainColor, #045c81) !important;
+    border: none !important;
+    font-size: 14px !important;
+    color: $black !important;
+    font-weight: $fontWeightBold !important;
+    font-family: $mainFont !important;
+    &:focus,
+    &:active {
+        box-shadow: none !important;
+    }
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#root {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+
+@media print {
+    * {
+        display: none !important;
+    }
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("./fonts/Roboto-Light.ttf");
+}
+
+// .section-container {
+//     max-width: 1615px;
+//     width: 100%;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin: 0 auto;
+//     @media (max-width: 1800px) {
+//         max-width: 1215px;
+//     }
+//     @media (max-width: 1400px) {
+//         max-width: 1115px;
+//     }
+//     @media (max-width: $tabletLandscape) {
+//         padding-left: 30px;
+//         padding-right: 30px;
+//     }
+//     @media (max-width: 992px) and (min-width: $mobile) {
+//         max-width: 90%;
+//     }
+//     @media (max-width: $mobile) {
+//         padding-left: 15px;
+//         padding-right: 15px;
+//     }
+// }

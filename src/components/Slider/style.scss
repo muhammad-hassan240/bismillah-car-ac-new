@@ -1,0 +1,18 @@
+@import '../../assets/css/common-scss/variable';
+.slick-slider {
+    .slick-dots {
+        li {
+            margin: 0 12px;
+            button {
+                &::before {
+                    color: $whiteColor;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .slick-arrow {
+        display: none !important;
+    }
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+// Main Colors
+$darkblue: #064587;
+$black: #000000;
+$darkGray: #404145;
+$Gray: #656565;
+$lightGray: #989898;
+$midGray: #6d6e71;
+$borderColor: #bcbcbc;
+$deeplightBlue: #13b5ea;
+$whiteColor: #ffffff;
+$bgGray: #eeeeee;
+$coldColor: #004b8d;
+$ambientColor: #3fda9c;
+$sparklingColor: #4dc7ef;
+$hotColor: #ff874c;
+$extrahotColor: #fd5f70;
+$fadeColor: #dbd5d5;
+$checkoutGray: #4d4d4d;
+$redColor: #ff0000;
+$grayRGBA: #65656533;
+$lightRGBA: #2dafe51a;
+$footerlightblue: #57bfea;
+$offWhite: #e9f7fd;
+$orangeColor: #ff7f40;
+$darkborderColor: #a1a1a4;
+$lightBlueRGBA: #2daee559;
+$deeplightBlueRGBA: #2dafe547;
+$lightWhite: #fdfcfc;
+$darkBrownColor: #191919;
+$blackRGBA: #0000004d;
+$borderRGBA: #707070bd;
+$modalRGBA: #000000bd;
+$whiteRGBA: #ffffff4d;
+$mainColor: #b7dded;
+$primaryColor: #12232e;
+$secondaryColor: #0b0c10;
+$mainColorRGBA: #2dafe580;
+// ===============
+// Fonts
+$mainFont: 'Varela Round',
+sans-serif;
+$RussoFont: 'Russo One',
+sans-serif;
+$fontWeightRegular: 400;
+$fontWeightBold: bold;
+$fontWeightMedium: 500;
+$fontWeightLight: 300;
+$beforeFont: 11px;
+$xtrasmallFontSize: 12px;
+$smallFontSize: 13px;
+$smallbasicFontSize: 14px;
+$mediumbasicFontSize: 15px;
+$basicFontSize: 16px;
+$smallHeading: 18px;
+$mediumHeading: 24px;
+$basicMediumHeading: 28px;
+$xtraMediumHeading: 32px;
+$largeFontSize: 36px;
+$largeHeading: 42px;
+$xtralargeHeading: 44px;
+$xtralargeHeading2: 48px;
+$maxHeading: 62px;
+$basicHeading: 20px;
+//  ==========
+// Shadows
+$buttonShadow: 0px 6px 11px #00000029;
+$headerShadow: 0px 0px 6px #00000029;
+$checkoutShadow: 0px 13px 36px #00000014;
+$formShadow: 0px 3px 6px #00000029;
+// ===========
+// Border Radius
+$buttonRadius: 26px;
+$smallRadius: 5px;
+// ===========
+// Letter Spacing
+$xtrasmallLetterSpacing: 0.6px;
+$smallLetterSpacing: 1.8px;
+$mediumLetterSpacing: 2.4px;
+$mainLetterSpacing: 2.8px;
+$largeLetterSpacing: 3.2px;
+$maxLetterSpacing: 3.6px;
+// ==============
+// Positive Space
+$s_0: 0;
+$s_0_25: 0.25rem;
+$s_0_5: 0.5rem;
+$s_0_75: 0.75rem;
+$s_1: 1rem;
+$s_1_25: 1.25rem;
+$s_1_5: 1.5rem;
+$s_1_75: 1.75rem;
+$s_2: 2rem;
+$s_2_25: 2.25rem;
+$s_2_5: 2.5rem;
+$s_2_75: 2.5rem;
+$s_3: 3rem;
+$s_3_25: 3.25rem;
+$s_3_5: 3.5rem;
+$s_3_75: 3.75rem;
+$s_4: 4rem;
+$s_4_25: 4.25rem;
+$s_4_5: 4.5rem;
+$s_4_75: 4.75rem;
+$s_5: 5rem;
+$s_5_25: 5.25rem;
+$s_5_5: 5.5rem;
+$s_5_75: 5.75rem;
+// ================
+// Negative Space
+$_s_0_25: -0.25rem;
+$_s_0_5: -0.5rem;
+$_s_0_75: -0.75rem;
+$_s_1: -1rem;
+$_s_1_25: -1.25rem;
+$_s_1_5: -1.5rem;
+$_s_1_75: -1.75rem;
+$_s_2: -2rem;
+$_s_2_25: -2.25rem;
+$_s_2_5: -2.5rem;
+$_s_2_75: -2.5rem;
+$_s_3: -3rem;
+$_s_3_25: -3.25rem;
+$_s_3_5: -3.5rem;
+$_s_3_75: -3.75rem;
+$_s_4: -4rem;
+$_s_4_25: -4.25rem;
+$_s_4_5: -4.5rem;
+$_s_4_75: -4.75rem;
+$_s_5: -5rem;
+$_s_5_25: -5.25rem;
+$_s_5_5: -5.5rem;
+$_s_5_75: -5.75rem;
+//===============

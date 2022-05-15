@@ -1,0 +1,44 @@
+@import '../../assets/css/common-scss/variable';
+.service-details-section {
+    background: rgba(247, 244, 244, 0.6);
+    .service-details-wrapper {
+        margin: 220px 0 70px;
+        .service-details {
+            background-color: $whiteColor;
+            filter: drop-shadow(50px 50px 99px rgba(65, 65, 65, 0.2));
+            border-radius: 6px;
+            min-height: 450px;
+            padding: 0 30px 30px;
+            .service-left {
+                .left-details {
+                    margin-top: -150px;
+                    img {
+                        height: 350px;
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 12px;
+                    }
+                }
+            }
+            .service-right {
+                .right-details {
+                    padding: 30px 0;
+                    h2 {
+                        text-align: center;
+                        font-family: $RussoFont;
+                        color: $Gray;
+                        margin-top: 50px;
+                    }
+                }
+            }
+            .service-bottom {
+                padding-top: 30px;
+                .bottom-details {
+                    h3 {
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

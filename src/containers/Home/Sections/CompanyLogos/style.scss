@@ -1,0 +1,28 @@
+@import '../../../../assets/css/common-scss/variable';
+.company-logos-section {
+    background-color: #0b0c10;
+    padding: 40px 0;
+    .company-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 132px;
+            height: 100px;
+            object-fit: contain;
+            margin: auto 18px;
+        }
+        .logo-pic {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h4 {
+                margin-top: 8px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #ffffff;
+            }
+        }
+    }
+}
