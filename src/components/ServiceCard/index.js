@@ -1,25 +1,32 @@
 import ALink from '../Alink';
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import serviceData from './serviceDetails';
 
-const ServiceCard = props => {
+const ServiceCard = () => {
     return (
         <>
-            <Card>
-                <Card.Body>
-                    <Card.Title>{props.heading}</Card.Title>
-                    <div className="service-icon">
-                        <span>
-                            {' '}
-                            <i className={props.icon}></i>
-                        </span>
+            {serviceData.serviceDetail.map((item, i) => (
+                <>
+                    <div className="col-md-4">
+                        <Card>
+                            <Card.Body>
+                                <Card.Title>{item.heading}</Card.Title>
+                                <div className="service-icon">
+                                    <span>
+                                        <i className={item.icon}></i>
+                                    </span>
+                                </div>
+                                <Card.Text>{item.content}</Card.Text>
+                                <ALink to={item.link}>
+                                    <button className="btn btn-primary">More Details</button>
+                                </ALink>
+                            </Card.Body>
+                        </Card>
                     </div>
-                    <Card.Text>{props.content}</Card.Text>
-                    <ALink to={props.to}>
-                        <button className="btn btn-primary">More Details</button>
-                    </ALink>
-                </Card.Body>
-            </Card>
+                </>
+            )
+            )}
         </>
     );
 };

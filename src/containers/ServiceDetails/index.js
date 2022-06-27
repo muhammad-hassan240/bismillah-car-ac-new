@@ -1,5 +1,4 @@
 import React from 'react';
-import NavigationHeader from '../../components/NavigationHeader';
 import { images } from '../../Constants/images';
 import Footer from '../../components/Footer';
 import './style.scss'
@@ -7,7 +6,6 @@ import './style.scss'
 const ServiceDetails = () => {
     return (
         <>
-            <NavigationHeader />
             <section className="service-details-section">
                 <div className="container">
                     <div className="row">

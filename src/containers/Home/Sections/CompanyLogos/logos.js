@@ -1,17 +1,29 @@
-import React from 'react'
-
-const Logos = ({ logos }) => {
-    return (
-        <>
-            {logos.map((item, i) => (
-                <div key={i} className="logo-pic">
-                    <img src={item.src} alt="logo" className="img-fluid" />
-                    <h4>{item.title}</h4>
-                </div>
-            )
-            )}
-        </>
-    )
+import { images } from "../../../../Constants/images";
+export  default  {
+    level1:[
+        {
+            src: images.honda,
+            title: 'Honda'
+        },
+        {
+            src: images.toyota,
+            title: 'Toyota'
+        },
+        {
+            src: images.suzuki,
+        title: 'Suzuki'
+        },
+        {
+            src: images.mercedes,
+            title: 'Mercedes'
+        },
+        {
+            src: images.audi,
+            title: 'Audi'
+        },
+        {
+            src: images.hyundai,
+            title: 'Hyundai'
+        },
+    ]
 }
-
-export default Logos

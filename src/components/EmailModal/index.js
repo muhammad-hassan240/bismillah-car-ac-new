@@ -2,19 +2,15 @@ import React from 'react';
 import './style.scss';
 import { Zoom } from 'react-reveal';
 import { images } from '../../Constants/images';
-import { useState } from 'react';
-import history from '../../containers/routes/history';
-const EmailModal = () => {
-    const [closeModal, setCloseModal] = useState(false);
-    const emailFormModal = history
+const EmailModal = (props) => {
     return (
         <>
-            {emailFormModal &&
-                <div className={`modal-wrapper ${closeModal ? 'd-none' : ''}`}>
+            {props.showModal &&
+                <div className="modal-wrapper">
                     <Zoom>
                         <div className="modal-content-wrapper">
                             <h3 className="text-center">Message Us</h3>
-                            <div className="close-icon" onClick={() => setCloseModal(true)}>
+                            <div className="close-icon" onClick={() => props.setShowModal(false)}>
                                 <img src={images.closeIcon} alt="close" />
                             </div>
                             <form>
