@@ -37,22 +37,18 @@ const Footer = () => {
                             <div className="social-links">
                                 <ul className="list-unstyled">
                                     <li>
-                                        <span>
-                                            <i className="fab fa-facebook"></i>
-                                            <span className="social-name">Facebook</span>
-                                        </span>
+                                        <i className="fab fa-facebook"></i>
+                                        <span className="social-name">Facebook</span>
+
                                     </li>
                                     <li>
-                                        <span>
-                                            <i className="fab fa-instagram"></i>
-                                            <span className="social-name">Instagram</span>
-                                        </span>
+                                        <i className="fab fa-instagram"></i>
+                                        <span className="social-name">Instagram</span>
+
                                     </li>
                                     <li>
-                                        <span>
-                                            <i className="fab fa-twitter"></i>
-                                            <span className="social-name">Twitter</span>
-                                        </span>
+                                        <i className="fab fa-twitter"></i>
+                                        <span className="social-name">Twitter</span>
                                     </li>
                                 </ul>
                             </div>

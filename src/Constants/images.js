@@ -20,6 +20,7 @@ import carIcon from '../assets/images/car-icon.png';
 import member1 from '../assets/images/member1.jpg';
 import member2 from '../assets/images/member2.jpg';
 import logo from '../assets/images/logo192.png';
+import closeIcon from '../assets/images/close-icon.svg'
 export const images = {
     service1,
     repairing,
@@ -43,4 +44,5 @@ export const images = {
     member1,
     member2,
     logo,
+    closeIcon,
 };

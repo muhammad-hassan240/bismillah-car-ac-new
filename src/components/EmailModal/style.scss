@@ -1,0 +1,86 @@
+@import '../../assets/css/common-scss/variable';
+.modal-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #064587, $alpha: 0.6);
+    backdrop-filter: blur(8px);
+    top: 0;
+    left: 0;
+    .modal-content-wrapper{
+        max-width: 800px;
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        position: relative;
+        form{
+            max-width: 90%;
+            margin: auto;
+            .form-control{
+                &:focus{
+                    // box-shadow: unset !important;
+                    border: 1px solid #ced4da;
+                }
+                &:focus-visible{
+                    border: 1px solid #ced4da;
+                    outline: none !important;
+                }
+            }
+            .text-area{
+                max-height: 150px;
+                overflow: auto;
+                padding: 8px 10px;
+                border: 1px solid #ced4da;
+                border-radius: 4px;
+                margin-bottom: 0;
+                textarea{
+                    max-height: 100px;
+                    resize: none;
+                    border: none !important;
+                    width: 100%;
+                    overflow: auto;
+                    &:focus-visible{
+                        border: 1px solid #ced4da;
+                        outline: none !important;
+                    }
+                    &::-webkit-scrollbar{
+                        width: 10px;
+                        border-radius: 10px;
+                        background-color: rgba(6, 69, 135, 0.68);
+                    }
+                    &::-webkit-scrollbar-thumb{
+                        width: 6px;
+                        border-radius: 10px;
+                        background-color: $mainColor;
+                    }
+                }
+            }
+        }
+        .close-icon{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            height: 40px;
+            width: 40px;
+            background-color: $mainColor;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.5s;
+            img{
+                height: 24px;
+                width: 24px;
+                opacity: 0.6;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

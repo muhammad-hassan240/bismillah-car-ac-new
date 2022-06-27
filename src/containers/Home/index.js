@@ -6,6 +6,7 @@ import OurService from './Sections/OurService';
 import About from './Sections/About';
 import CompanyLogos from './Sections/CompanyLogos';
 import Footer from '../../components/Footer';
+import EmailModal from '../../components/EmailModal';
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <CompanyLogos />
       <Footer />
+      <EmailModal/>
     </>
   );
 };

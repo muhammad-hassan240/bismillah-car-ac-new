@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import ALink from '../Alink';
 import {
     Container,
@@ -8,6 +9,8 @@ import './style.scss';
 import history from '../../containers/routes/history';
 const NavigationHeader = () => {
     const navbarMenu = history.location.pathname === "/";
+    const [emailForm, setEmailForm] = useState(false);
+
     return (
         <>
             <div className="navbar-section">
@@ -32,7 +35,7 @@ const NavigationHeader = () => {
                                     <Nav.Link>Services</Nav.Link>
                                     <Nav.Link>About</Nav.Link>
                                     <Nav.Link>
-                                        <a href="mailto:bismillahcarac@gmail.com">
+                                        <a onClick={() => setEmailForm(true)}>
                                             <i className="fas fa-envelope"></i>
                                         </a>
                                     </Nav.Link>

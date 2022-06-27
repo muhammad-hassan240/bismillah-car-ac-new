@@ -3,7 +3,7 @@
     padding: 40px 0;
     background-color: #12232e;
     h2 {
-        color: $whiteColor;
+        color: $mainColor;
         margin-bottom: 30px;
         text-transform: uppercase;
         font-weight: $fontWeightBold;
@@ -42,12 +42,15 @@
                 }
                 li {
                     margin-top: 8px;
+                    display: flex;
+                    align-items: center;
                 }
                 .social-name {
                     margin-left: 8px;
                     font-size: 14px;
                     font-weight: 600;
                     letter-spacing: 1.3px;
+                    line-height: 1;
                 }
             }
         }

@@ -2,7 +2,7 @@ $tabletLandscape: 1280px;
 $tabletPortrait: 768px;
 $mobileLandscape: 640px;
 $mobile: 510px;
-@import '../src/assets/css/common-scss/variable';
+@import './assets/css/common-scss/variable';
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ html {
 
 body {
     padding-top: 0 !important;
-    font-family: 'Roboto' !important;
+    font-family: $mainFont !important;
     p {
         font-size: 16px;
     }
@@ -74,37 +74,6 @@ img {
     }
 }
 
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("./fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: url("./fonts/Roboto-Medium.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url("./fonts/Roboto-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url("./fonts/Roboto-Light.ttf");
-}
 
 // .section-container {
 //     max-width: 1615px;
