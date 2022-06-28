@@ -1,4 +1,3 @@
-import { images } from '../../../../Constants/images';
 import React from 'react';
 import LogosImg from './logos';
 import './style.scss';

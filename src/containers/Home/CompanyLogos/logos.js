@@ -1,4 +1,4 @@
-import { images } from "../../../../Constants/images";
+import { images } from "../../../Constants/images";
 export  default  {
     level1:[
         {
